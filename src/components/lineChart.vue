@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div ref="echartsContainer" style="width: 600px; height: 400px;"></div>
 </template>
  
@@ -27,4 +27,4 @@ export default {
   }
 }
 </script>
- 
+  -->

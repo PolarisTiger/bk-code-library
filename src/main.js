@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from "./router/index";
-import 'lib-flexible/flexible'
+// import 'lib-flexible/flexible'
 import $axios from "@/utils/request";
 
 // 把变量挂载到vue的原型上

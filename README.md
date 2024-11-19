@@ -1,12 +1,9 @@
-# uni-pc
+# bk-code-library
 
-## 前端嵌入uni-app中的轻量框架
+## bk的前端功能组件方法
 ```
-npm install
+1.全屏 （full-screen）
+
+2.unity 与 前端通信 （em-browser）
 
 ```
-vue 2
-vue-router 
-axios
-rem 布局
-echarts 

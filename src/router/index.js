@@ -16,6 +16,13 @@ const router = new Router({
         title: "首页"
       },
     },
+    {
+      path: "/full-screen",
+      component: () => import("@/views/full-screen/index"),
+      meta: {
+        title: "全屏"
+      },
+    },
   ]
 });
 
