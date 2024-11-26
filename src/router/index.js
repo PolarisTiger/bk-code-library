@@ -23,6 +23,20 @@ const router = new Router({
         title: "全屏"
       },
     },
+    {
+      path: "/em-browser",
+      component: () => import("@/views/em-browser/index"),
+      meta: {
+        title: "unity与前端通信"
+      },
+    },
+    {
+      path: "/scale-screen",
+      component: () => import("@/views/scale-screen/index"),
+      meta: {
+        title: "屏幕自适应"
+      },
+    },
   ]
 });
 
