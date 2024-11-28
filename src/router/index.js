@@ -37,6 +37,13 @@ const router = new Router({
         title: "屏幕自适应"
       },
     },
+    {
+      path: "/qr-code",
+      component: () => import("@/views/qr-code/index"),
+      meta: {
+        title: "二维码生成"
+      },
+    },
   ]
 });
 
