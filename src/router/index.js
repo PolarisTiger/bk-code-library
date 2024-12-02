@@ -44,6 +44,13 @@ const router = new Router({
         title: "二维码生成"
       },
     },
+    {
+      path: "/gaode-weather",
+      component: () => import("@/views/gaode-weather/index"),
+      meta: {
+        title: "高德天气"
+      },
+    },
   ]
 });
 
