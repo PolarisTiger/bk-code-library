@@ -51,6 +51,13 @@ const router = new Router({
         title: "高德天气"
       },
     },
+    {
+      path: "/echarts",
+      component: () => import("@/views/echarts/index"),
+      meta: {
+        title: "echarts图表"
+      },
+    },
   ]
 });
 
